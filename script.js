@@ -1,18 +1,6 @@
 'use strict';
 
 // Variables //
-const btnRoll = document.querySelector('.btn--roll'),
-    btnHold = document.querySelector('.btn--hold'),
-    btnNewGame = document.querySelector('.btn--new'),
-    playerTotalScore1 = document.getElementById('score--0'),
-    playerTotalScore2 = document.getElementById('score--1'),
-    playerCurrentScore1 = document.getElementById('current--0'),
-    playerCurrentScore2 = document.getElementById('current--1'),
-    playerBg1 = document.querySelector('.player--0'),
-    playerBg2 = document.querySelector('.player--1'),
-    playerUsername1 = document.getElementById('name--0'),
-    playerUsername2 = document.getElementById('name--1'),
-    dice = document.querySelector('.dice');
 
 let isFirstPlayer = true;
 
